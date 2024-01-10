@@ -84,7 +84,7 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: #608dfd;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
@@ -220,7 +220,7 @@ a:focus,
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #345fd5;
   font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
@@ -232,7 +232,7 @@ a:focus,
   color: #5ca9fb;
 }
 .intro p {
-  color: #fff;
+  color: #5ca9fb;
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
