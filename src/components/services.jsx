@@ -7,7 +7,7 @@ export const Services = (props) => {
         <div className="section-title">
         <h2>Our Services</h2>
 <p>
-  Explore a comprehensive range of services designed to elevate your business. From web development and software solutions to cloud services and analytics, we have the expertise to drive your success. Discover how our tailored services can transform your digital presence and propel your business forward.
+  Explore a comprehensive range of services designed to elevate your business. From web development and software solutions to cloud services and analytics, we have the expertise to drive your success. 
 </p>
 
         </div>

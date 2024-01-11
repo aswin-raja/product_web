@@ -1,14 +1,19 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
+import { message , Spin} from 'antd';
+
 
 const initialState = {
   name: "",
   email: "",
-  message: "",
+  form_message: "",
 };
+
+
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ name, email, form_message }, setState] = useState(initialState);
+  const [loader, setLoader] = useState(false)
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -19,27 +24,36 @@ export const Contact = (props) => {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
+    console.log(name, email, form_message);
+    setLoader(true)
     // {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
     
     emailjs
+       
       .sendForm("service_mxvcgiz", "template_yumt2qt", e.target, "cFiJoSU1MrFomSFFl")
       .then(
         (result) => {
           console.log(result.text);
+          setLoader(false)
+          message.success('Message Sent Successfully');
           clearState();
         },
         (error) => {
           console.log(error.text);
+          setLoader(false)
+          message.error('Failed to Sent Message');
         }
       );
   };
   return (
     <div>
-      <div id="contact">
-        <div className="container">
-          <div className="col-md-8">
+      
+      <div id="contact" >
+      
+      <div className="container" >
+    
+          <div className="col-md-8" style={{ position: "relative" }}>
+          {loader && (<div className="spin-div"><Spin size="large" className="spin"/></div>) }
             <div className="row">
               <div className="section-title">
                 <h2>Get In Touch</h2>
@@ -81,7 +95,7 @@ export const Contact = (props) => {
                 </div>
                 <div className="form-group">
                   <textarea
-                    name="message"
+                    name="form_message"
                     id="message"
                     className="form-control"
                     rows="4"
