@@ -1,66 +1,67 @@
 {
   "Header": {
     "title": "TECH TAC SOLUTIONS",
-    "paragraph": "Providing Most Reliable Solutions for Your Business Through Our IT Support."
+    "paragraph": "Empowering Your Business with Innovative IT Solutions and Support."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Effective and Reliable Solutions ",
-      "24/7 Customer Support",
-      "Attractive Designs",
-      "Scalable Solutions"
-    ],
+    "paragraph": "Welcome to Tech Tac Solutions, where we are dedicated to providing cutting-edge IT solutions that drive your business forward. ",
     "Why2": [
-      "Effective and Reliable Solutions ",
-      "24/7 Customer Support",
-      "Attractive Designs",
-      "Scalable Solutions"
+      "Tailored and Innovative Solutions",
+      "Round-the-clock Customer Support",
+      "Sleek and Modern Designs",
+      "Scalable Solutions for Growth"
+    ],
+    "Why": [
+      "Customized Solutions for Your Unique Business Needs",
+      "Round-the-clock Support Ensuring Uninterrupted Operations",
+      "Modern and User-Centric Designs for Enhanced User Experience",
+      "Scalable Solutions That Grow with Your Business"
     ]
+    
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "Project A",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Project B",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Project C",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Project D",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Project E",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Project F",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Project G",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Project H",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Project I",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
@@ -68,117 +69,102 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "WEB APPLICTAIONS",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "WEB APPLICATIONS",
+      "text": "Crafting engaging and functional web applications tailored to meet your business needs."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "SOFTWARES",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "SOFTWARE DEVELOPMENT",
+      "text": "Building robust and scalable software solutions with efficiency and innovation in your business."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "WEB SITES",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "WEB DESIGN",
+      "text": "Creating visually stunning and user-friendly websites that leave a lasting impression."
     },
     {
       "icon": "fa fa-language",
       "name": "DEVELOPMENT & DEPLOYMENT",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Providing end-to-end development and deployment services for seamless  operation. "
     },
     {
       "icon": "fa fa-plane",
       "name": "AWS CLOUD SERVICES",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Harnessing the power of AWS to deliver secure, scalable, and reliable cloud solutions."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "POWER BI",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "POWER BI ANALYTICS",
+      "text": "Unlocking actionable insights through Power BI for informed decision-making in your business."
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Tech Tac Solutions has transformed our digital presence. \"",
+      "name": "Alice Johnson"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Incredible support and innovative solutions. \"",
+      "name": "Bob Smith"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Incredible support and innovative solutions.\"",
+      "name": "Charlie Brown"
     }
   ],
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
+      "name": "Lead Developer",
       "job": "Developer"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
+      "name": "Creative Designer",
       "job": "Designer"
     },
-    {
+        {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Devops"
+      "name": "DevOps Engineer",
+      "job": "DevOps "
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Power Bi Developer"
+      "name": "Power BI ",
+      "job": "Power BI Developer"
     }
   ],
   "Contact": {
-    "address": "Nagercoil, Kanyakumari, India ",
+    "address": "Nagercoil, Kanyakumari, India",
     "phone": "+91 8098436516",
-    "email": "techtacsolutions.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "email": "info@techtacsolutions.com",
+    "facebook": "facebook.com/techtacsolutions",
+    "twitter": "twitter.com/techtacsolutions",
+    "youtube": "youtube.com/techtacsolutions"
   },
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Tailored Solutions",
+      "text": "Crafting solutions that perfectly fit your business needs and goals. "
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Innovative Approach",
+      "text": "Driving innovation with a forward-thinking and creative approach. "
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Customer-Centric",
+      "text": "Putting our customers at the center of everything we do. "
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Scalable Solutions",
+      "text": "Delivering scalable solutions that grow with your business."
     }
   ]
 }

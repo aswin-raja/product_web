@@ -5,11 +5,11 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+        <h2>Our Services</h2>
+<p>
+  Explore a comprehensive range of services designed to elevate your business. From web development and software solutions to cloud services and analytics, we have the expertise to drive your success. Discover how our tailored services can transform your digital presence and propel your business forward.
+</p>
+
         </div>
         <div className="row">
           {props.data
