@@ -256,7 +256,7 @@ header .intro-text {
 #features {
   background: #f6f6f6;
 }
-#features i.fa {
+#features .icon {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -337,14 +337,15 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#services i.fa {
-  font-size: 42px;
+#services .icon {
+  font-size: 52px;
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background-color: white;
   border-radius: 50%;
-  color: #fff;
+  color: #6372ff;
+  
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #services h3 {
@@ -578,19 +579,20 @@ label {
   display: inline-block;
   margin: 0 20px;
 }
-#contact .social i.fa {
+#contact .social .icon {
   font-size: 22px;
   width: 48px;
   height: 48px;
   padding: 12px 0;
   border: 2px solid #fff;
-  color: #fff;
+  color: #608dfd;
   border-radius: 50%;
+  background: #fff;
   transition: all 0.3s;
 }
-#contact .social i.fa:hover {
-  color: #608dfd;
-  background: #fff;
+#contact .social .icon:hover {
+  background: #608dfd;
+  color: #fff;
 }
 /* Footer Section*/
 #footer {

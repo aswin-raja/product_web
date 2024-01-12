@@ -2,11 +2,13 @@
   "name": "landingpage-react-template",
   "private": true,
   "dependencies": {
+    "@iconify/react": "^4.1.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "antd": "^5.12.8",
     "emailjs-com": "^2.6.4",
+    "iconify": "^1.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "^5.0.1",

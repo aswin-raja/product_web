@@ -1,4 +1,5 @@
 import React from "react";
+import { Icon } from '@iconify/react';
 
 export const Services = (props) => {
   return (
@@ -16,7 +17,7 @@ export const Services = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">
                   {" "}
-                  <i className={d.icon}></i>
+                  <Icon icon={d.icon}  className="icon"/>
                   <div className="service-desc">
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>

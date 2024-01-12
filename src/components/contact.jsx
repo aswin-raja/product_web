@@ -2,6 +2,7 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 import { message , Spin} from 'antd';
+import { Icon } from '@iconify/react';
 
 
 const initialState = {
@@ -144,20 +145,22 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
+                    <a href={props.data ? props.data.instagram : "/"} target="blank">
+                    <Icon icon="skill-icons:instagram" className="icon" />
+
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                    <Icon icon="gg:facebook" className="icon"/>
+
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                    <Icon icon="iconoir:facebook" className="icon"/>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -167,9 +170,9 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Tech Tac Solutions. Design by{" "}
+            &copy; 2023 Tech Tac Solutions. Designed & Developed  by{" "}
             <a href="https://aswinraja.netlify.app" rel="nofollow" target="blank">
-              ASWIN RAJA A
+              ASWIN RAJA 
             </a>
           </p>
         </div>

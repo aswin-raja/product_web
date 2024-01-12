@@ -21,79 +21,46 @@
   },
   "Gallery": [
     {
-      "title": "Project A",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "AC Solutions Website",
+      "largeImage": "img/portfolio/ac.png",
+      "smallImage": "img/portfolio/ac.png",
+      "link":"https://acsolutions.netlify.app"
     },
     {
-      "title": "Project B",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project C",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project D",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project E",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project F",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project G",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project H",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project I",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Finance Management Sysytem",
+      "largeImage": "img/portfolio/finance.png",
+      "smallImage": "img/portfolio/finance.png"
     }
+
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
+      "icon": "ic:twotone-web",
       "name": "WEB APPLICATIONS",
       "text": "Crafting engaging and functional web applications tailored to meet your business needs."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
+      "icon": "fa6-solid:laptop-code",
       "name": "SOFTWARE DEVELOPMENT",
       "text": "Building robust and scalable software solutions with efficiency and innovation in your business."
     },
     {
-      "icon": "fa fa-cloud-download",
+      "icon": "fluent:design-ideas-16-regular",
       "name": "WEB DESIGN",
       "text": "Creating visually stunning and user-friendly websites that leave a lasting impression."
     },
     {
-      "icon": "fa fa-language",
+      "icon": "eos-icons:deploy",
       "name": "DEVELOPMENT & DEPLOYMENT",
       "text": "Providing end-to-end development and deployment services for seamless  operation. "
     },
     {
-      "icon": "fa fa-plane",
+      "icon": "logos:aws",
       "name": "AWS CLOUD SERVICES",
       "text": "Harnessing the power of AWS to deliver secure, scalable, and reliable cloud solutions."
     },
     {
-      "icon": "fa fa-pie-chart",
+      "icon": "logos:microsoft-power-bi",
       "name": "POWER BI ANALYTICS",
       "text": "Unlocking actionable insights through Power BI for informed decision-making in your business."
     }
@@ -117,22 +84,22 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
+      "img": "img/team/icon.png",
       "name": "Lead Developer",
       "job": "Developer"
     },
     {
-      "img": "img/team/02.jpg",
+      "img":"img/team/icon.png",
       "name": "Creative Designer",
       "job": "Designer"
     },
         {
-      "img": "img/team/03.jpg",
+      "img": "img/team/icon.png",
       "name": "DevOps Engineer",
       "job": "DevOps "
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "img/team/icon.png",
       "name": "Power BI ",
       "job": "Power BI Developer"
     }
@@ -141,28 +108,28 @@
     "address": "Nagercoil, Kanyakumari, India",
     "phone": "+91 8098436516",
     "email": "info@techtacsolutions.com",
-    "facebook": "facebook.com/techtacsolutions",
-    "twitter": "twitter.com/techtacsolutions",
-    "youtube": "youtube.com/techtacsolutions"
+    "instagram": "https://www.instagram.com/tech_tac_solutions/?utm_source=qr&igsh=YXE3Mnphb2xma2Jx",
+    "facebook": "facebook.com"
+    
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
+      "icon": "carbon:managed-solutions",
       "title": "Tailored Solutions",
       "text": "Crafting solutions that perfectly fit your business needs and goals. "
     },
     {
-      "icon": "fa fa-bullhorn",
+      "icon": "streamline:industry-innovation-and-infrastructure-solid",
       "title": "Innovative Approach",
       "text": "Driving innovation with a forward-thinking and creative approach. "
     },
     {
-      "icon": "fa fa-group",
+      "icon": "fa:group",
       "title": "Customer-Centric",
       "text": "Putting our customers at the center of everything we do. "
     },
     {
-      "icon": "fa fa-magic",
+      "icon": "arcticons:scalable",
       "title": "Scalable Solutions",
       "text": "Delivering scalable solutions that grow with your business."
     }
