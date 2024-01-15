@@ -7,8 +7,7 @@ export const Team = (props) => {
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Meet the Team</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          Our dynamic team is comprised of dedicated professionals who are passionate about technology and committed to delivering top-notch solutions. With a diverse range of skills and backgrounds, we collaborate seamlessly to tackle challenges and drive success. Get to know the faces behind Tec Tac Solutions – your partners in tech excellence.
           </p>
         </div>
         <div id="row">
