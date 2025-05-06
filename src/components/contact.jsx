@@ -170,7 +170,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Stack & Queue. Designed & Developed  by{" "}
+            &copy; 2025 Stack & Queue. Designed & Developed  by{" "}
             <a href="https://aswinraja.netlify.app" rel="nofollow" target="blank">
               ASWIN RAJA 
             </a>
