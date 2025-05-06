@@ -1,10 +1,10 @@
 {
   "Header": {
-    "title": "TECH TAC SOLUTIONS",
+    "title": "Stack & Queue",
     "paragraph": "Empowering Your Business with Innovative IT Solutions and Support."
   },
   "About": {
-    "paragraph": "Welcome to Tech Tac Solutions, where we are dedicated to providing cutting-edge IT solutions that drive your business forward. ",
+    "paragraph": "Welcome to Stack&Queue, where we are dedicated to providing cutting-edge IT solutions that drive your business forward. ",
     "Why2": [
       "Tailored and Innovative Solutions",
       "Round-the-clock Customer Support",
@@ -68,7 +68,7 @@
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Tech Tac Solutions has transformed our digital presence. \"",
+      "text": "\"Stack & Queue has transformed our digital presence. \"",
       "name": "Alice Johnson"
     },
     {
@@ -107,8 +107,8 @@
   "Contact": {
     "address": "Nagercoil, Kanyakumari, India",
     "phone": "+91 8098436516",
-    "email": "info@techtacsolutions.com",
-    "instagram": "https://www.instagram.com/tech_tac_solutions/?utm_source=qr&igsh=YXE3Mnphb2xma2Jx",
+    "email": "stacknqueueinfo@gmail.com",
+    "instagram": "https://www.instagram.com/stacknqueue_in?igsh=YXE3Mnphb2xma2Jx",
     "facebook": "facebook.com"
     
   },
