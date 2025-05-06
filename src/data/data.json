@@ -21,17 +21,11 @@
   },
   "Gallery": [
     {
-      "title": "AC Solutions Website",
-      "largeImage": "img/portfolio/ac.png",
-      "smallImage": "img/portfolio/ac.png",
-      "link":"https://acsolutions.netlify.app"
-    },
-    {
-      "title": "Finance Management Sysytem",
-      "largeImage": "img/portfolio/finance.png",
-      "smallImage": "img/portfolio/finance.png"
+      "title": "Vdrive - Car Rental Application",
+      "largeImage": "img/portfolio/vdrive_in.png",
+      "smallImage": "img/portfolio/vdrive_in.png",
+      "link":"https://vdrive.in"
     }
-
   ],
   "Services": [
     {
