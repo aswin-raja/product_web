@@ -8,7 +8,7 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>Projects</h2>
           <p>
-            
+            Discover our portfolio of innovative projects. Each solution is crafted with precision and designed to deliver exceptional results for our clients.
           </p>
         </div>
 
@@ -25,6 +25,7 @@ export const Gallery = (props) => {
               title={d.title}
               largeImage={d.link}
               smallImage={d.smallImage}
+              description={d.description}
             />
           
         </div>

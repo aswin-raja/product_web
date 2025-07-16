@@ -53,7 +53,7 @@ export const Contact = (props) => {
       
       <div className="container" >
     
-          <div className="col-md-8" style={{ position: "relative" }}>
+          <div className="col-md-8 col-md-offset-2" style={{ position: "relative" }}>
           {loader && (<div className="spin-div"><Spin size="large" className="spin"/></div>) }
             <div className="row">
               <div className="section-title">
@@ -113,68 +113,97 @@ export const Contact = (props) => {
               </form>
             </div>
           </div>
-          <div className="col-md-3 col-md-offset-1 contact-info">
-            <div className="contact-item">
-              <h3>Contact Info</h3>
-              <p>
-                <span>
-                  <i className="fa fa-map-marker"></i> Address
-                </span>
-                {props.data ? props.data.address : "loading"}
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-phone"></i> Phone
-                </span>{" "}
-                {props.data ? props.data.phone : "loading"}
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-envelope-o"></i> Email
-                </span>{" "}
-                {props.data ? props.data.email : "loading"}
-              </p>
-            </div>
-          </div>
-          <div className="col-md-12">
-            <div className="row">
-              <div className="social">
-                <ul>
-                  <li>
-                    <a href={props.data ? props.data.instagram : "/"} target="blank">
-                    <Icon icon="skill-icons:instagram" className="icon" />
-
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                    <Icon icon="gg:facebook" className="icon"/>
-
-                    </a>
-                  </li>
-                  {/* <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
-                    <Icon icon="iconoir:facebook" className="icon"/>
-                    </a>
-                  </li> */}
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <div id="footer">
-        <div className="container text-center">
-          <p>
-            &copy; 2025 Stack & Queue. Designed & Developed  by{" "}
-            <a href="https://aswinraja.netlify.app" rel="nofollow" target="blank">
-              ASWIN RAJA 
-            </a>
-          </p>
+        <div className="container">
+          <div className="row">
+            {/* Company Info */}
+            <div className="col-md-3">
+          
+                <h4>Stack & Queue</h4>
+
+              <p>Empowering Your Business with Innovative IT Solutions and Support.</p>
+              <div className="social">
+                <ul>
+                  <li>
+                    <a href={props.data ? props.data.instagram : "/"} target="_blank" rel="noopener noreferrer">
+                      <Icon icon="skill-icons:instagram" className="icon" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.twitter : "/"} target="_blank" rel="noopener noreferrer">
+                      <Icon icon="gg:facebook" className="icon"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a href={props.data ? props.data.linkedin : "/"} target="_blank" rel="noopener noreferrer">
+                      <Icon icon="mdi:linkedin" className="icon"/>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            {/* Quick Links */}
+            <div className="col-md-3">
+              <h4>Quick Links</h4>
+              <ul className="footer-links">
+                <li><a href="#page-top">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            
+            {/* Company Links */}
+            <div className="col-md-3">
+              <h4>Company</h4>
+              <ul className="footer-links">
+                <li><a href="/careers">Careers</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/projects">Projects</a></li>
+              </ul>
+            </div>
+            
+            {/* Contact Info */}
+            <div className="col-md-3">
+              <h4>Get In Touch</h4>
+              <div className="footer-contact">
+                <p>
+                  <i className="fa fa-map-marker"></i>
+                  {props.data ? props.data.address : "123 Business Street, City, State 12345"}
+                </p>
+                <p>
+                  <i className="fa fa-phone"></i>
+                  {props.data ? props.data.phone : "+1 (555) 123-4567"}
+                </p>
+                <p>
+                  <i className="fa fa-envelope"></i>
+                  {props.data ? props.data.email : "info@stackqueue.com"}
+                </p>
+                <p>
+                  <i className="fa fa-clock-o"></i>
+                  Mon - Fri: 9:00 AM - 6:00 PM
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <hr className="footer-divider" />
+          
+          <div className="row">
+            <div className="col-md-12 text-center">
+              <p className="footer-copyright">
+                &copy; 2025 Stack & Queue. All rights reserved. Designed & Developed by{" "}
+                <a href="https://aswinraja.netlify.app" rel="nofollow" target="_blank">
+                  ASWIN RAJA 
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

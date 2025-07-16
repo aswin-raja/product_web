@@ -24,7 +24,29 @@
       "title": "Vdrive - Car Rental Application",
       "largeImage": "img/portfolio/vdrive_in.png",
       "smallImage": "img/portfolio/vdrive_in.png",
-      "link":"https://vdrive.in"
+      "link":"https://vdrive.in",
+      "description": "A comprehensive car rental platform with real-time booking, fleet management, and user-friendly interface."
+    },
+    {
+      "title": "E-Commerce Platform",
+      "largeImage": "img/portfolio/e-com.png",
+      "smallImage": "img/portfolio/e-com.png",
+      "link":"#",
+      "description": "Modern e-commerce solution with secure payment integration, inventory management, and responsive design."
+    },
+    {
+      "title": "Finance Dashboard",
+      "largeImage": "img/portfolio/finance.png",
+      "smallImage": "img/portfolio/finance.png",
+      "link":"#",
+      "description": "Advanced financial analytics dashboard with real-time data visualization and comprehensive reporting features."
+    },
+    {
+      "title": "AC Service Management",
+      "largeImage": "img/portfolio/ac.png",
+      "smallImage": "img/portfolio/ac.png",
+      "link":"#",
+      "description": "Complete service management system for AC maintenance with scheduling, tracking, and customer management."
     }
   ],
   "Services": [
