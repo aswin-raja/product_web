@@ -1,0 +1,6 @@
+# Redirect all routes to index.html for client-side routing
+/*    /index.html   200
+
+# Specific redirects for common variations
+/project    /projects    301
+/project/*  /projects    301
